@@ -1,0 +1,42 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    margin: 0;
+    background: #1e1e1e;
+    color: white;
+    font-family: Arial, sans-serif;
+}
+
+.app {
+    width: 350px;
+    min-height: 100vh;
+    padding: 20px;
+    background: #252526;
+}
+.hidden {
+    display: none;
+}
+.children {
+    margin-left: 20px;
+}
+.node.active {
+    background-color: #3a3d41;
+}
+
+.context-menu {
+    position: fixed;
+    top: 100px;
+    left: 100px;
+    background: #333;
+    color: white;
+    padding: 10px;
+    z-index: 9999;
+}
+
+.context-menu div {
+    padding: 5px 15px;
+}

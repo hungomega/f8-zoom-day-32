@@ -76,7 +76,7 @@ const tree = [
     },
     {
         type: "folder",
-        name: "services",
+        name: "service",
         children: [
             {
                 type: "folder",
